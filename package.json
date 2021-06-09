@@ -1,11 +1,13 @@
 {
-  "name": "cli",
+  "name": "now-config",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" , 
-    "lint": "eslint src/"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/",
+    "now-build": "npm run build"
   },
   "author": "",
   "license": "ISC",
